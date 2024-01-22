@@ -4,6 +4,7 @@
   "description": "A Camunda 8 Tasklist API client for Node.js",
   "main": "dist/index.js",
   "scripts": {
+    "prepare": "npm run build",
     "test": "jest --detectOpenHandles  --runInBand",
     "build": "tsc --project tsconfig.build.json",
     "docs": "typedoc --options typedoc.json src/index.ts"
